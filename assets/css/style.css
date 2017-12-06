@@ -1,19 +1,29 @@
 body {
+	margin-left: 10%;
+	margin-right: 10%;
 	width: 960px;
+	background-image: url(/Users/samuel/Classwork/Basic-Portfolio/assets/images/circles-light.png);
 	}
+
+header {
+	width: 960px;
+	float: left;
+}
 
 table {
 	margin-top: 35px;
 	float: right;
     border: none;
     border-collapse: collapse;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
 }
 
-	td {
-	/*float: right;*/
+td {
+	text-decoration: none;
 	padding: 0px 25px 0px 25px;
 	margin-top: 25px;
-    border-left: 1px solid #000;
+    border-left: 1px solid #777777;
 }
 
 table td:first-child {
@@ -26,35 +36,58 @@ h1 {
 	text-align: center;
 	padding: 25px;
 	color: white;
-	margin-left: 200px;
 	font-family: Georgia, Times, Times New Roman, serif;
 	font-size: 28px;
 	font-weight: bold;
 	background-color: #4aaaa5;
 	}
 
-/*nav {
-	width: 70px;
-	height: 40px;
-	text-align: center;
-	margin-top: 30px;*/
-	/*padding: 10px;*/
-/*	float: right;
-	font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
-
-nav a {
-	color: lightgrey; text-decoration: none;
-}*/
-
-/*article {
-	margin-top: 200px;
+article {
+	/*padding-top: 30px;*/
+	background-color: #ffffff;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 20px;
 	float: left;
 	width: 650px;
 	left;
-	margin-left: 200px;
-}*/
+}
 
+h2 {
+	margin-top: 15px;
+	padding: 30px 10px 30px 10px;
+	border-bottom: solid 1px lightgrey;
+	/*background-color: tan;*/
+	width: 630px;
+	font-family: Georgia, Times, Times New Roman, serif;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+h3 {
+	border-bottom: solid 1px;
+	padding: 25px;
+}
+
+aside {
+	background-color: #ffffff;
+	margin-top: 20px;
+	text-align: center;
+	padding: 15px;
+	width: 240px;
+	height: 170px;
+	float: right;
+	color: #4aaaa5;
+}
+
+hold {
+
+}
+
+p {
+	padding: 0px 10px 30px 10px;
+	text-align: justify;
+}
 /*table {
 	float: left;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -77,4 +110,30 @@ nav a {
 	color: lightgrey;
 	background-color: tan;
 }*/
+
+footer {
+	clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
