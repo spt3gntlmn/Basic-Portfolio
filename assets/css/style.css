@@ -3,13 +3,23 @@ body {
 	}
 
 table {
+	margin-top: 35px;
 	float: right;
+    border: none;
+    border-collapse: collapse;
 }
 
 	td {
-	float: right;
-	padding: 25px;
+	/*float: right;*/
+	padding: 0px 25px 0px 25px;
+	margin-top: 25px;
+    border-left: 1px solid #000;
 }
+
+table td:first-child {
+    border-left: none;
+}
+
 
 h1 {
 	float: left;
