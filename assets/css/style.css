@@ -116,11 +116,11 @@ footer {
 	position: fixed;
 	left: 0px;
 	bottom: 0px;
+	z-index: 2;
 	border-top: solid 6px teal;
 	padding-top: 20px;
 	text-align: center;
 	background-color: #666666;
-	/*height: 80px;*/
 	width: 100%;
 	clear: both;
 }
@@ -189,13 +189,45 @@ a:active { background-color:orange;
 }
 
 .banner {
-	position: relative;
+	position: absolute;
 	height: 40px;
 	width: 300px;
-	background-color: #4aaaa5
+	z-index: 1;
+	background-color: #4aaaa5;
+	text-align: center;
+	color: #ffffff;
+	font-size: 20px;
+	padding-top: 20px;
 }
+
 .banner1 {
- 	left: 15px;
+ 	left: 54px;
+ 	top: 460px;
+}
+
+.banner2 {
+ 	left: 374px;
+ 	top: 460px;
+}
+
+.banner3 {
+ 	left: 54px;
+ 	top: 780px;
+}
+
+.banner4 {
+ 	left: 374px;
+ 	top: 780px;
+}
+
+.banner5 {
+ 	left: 54px;
+ 	top: 1100px;
+}
+
+.banner6 {
+ 	left: 374px;
+ 	top: 1100px;
 }
 
 
