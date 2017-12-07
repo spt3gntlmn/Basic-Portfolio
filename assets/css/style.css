@@ -1,12 +1,9 @@
 body {
-	/*margin-left: 10%;*/
-	/*margin-right: 10%;*/
-	/*width: 960px;*/
-	background-image: url(/Users/samuel/Classwork/Basic-Portfolio/assets/images/circles-light.png);
+	background-image: url(../../assets/images/circles-light.png);
 	}
-
+/*example code for locating background image */
+/*'../../images/image.png'*/
 header {
-	/*margin-left: -10%;*/
 	width: 100vw;
 	float: left;
 	background-color: #ffffff;
@@ -64,7 +61,6 @@ section {
 }
 
 article {
-	/*padding-top: 30px;*/
 	background-color: #ffffff;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -78,7 +74,6 @@ h2 {
 	margin-top: 15px;
 	padding: 30px 10px 30px 10px;
 	border-bottom: solid 1px lightgrey;
-	/*background-color: tan;*/
 	width: 630px;
 	font-family: Georgia, Times, Times New Roman, serif;
 	color: #4aaaa5;
@@ -100,10 +95,6 @@ aside {
 	height: 170px;
 	background-color: #ffffff;
 	color: #4aaaa5;
-}
-
-hold {
-
 }
 
 p {
