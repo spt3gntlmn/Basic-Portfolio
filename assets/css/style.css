@@ -9,7 +9,8 @@ header {
 	/*margin-left: -10%;*/
 	width: 100vw;
 	float: left;
-	background-color: #ffffff
+	background-color: #ffffff;
+	border-bottom: 3px #dddddd solid;
 }
 
 table {
@@ -80,6 +81,7 @@ h2 {
 	/*background-color: tan;*/
 	width: 630px;
 	font-family: Georgia, Times, Times New Roman, serif;
+	color: #4aaaa5;
 	font-size: 28px;
 	font-weight: bold;
 }
@@ -109,44 +111,37 @@ p {
 	padding: 0px 10px 30px 10px;
 	text-align: justify;
 }
-/*table {
-	float: left;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	border: solid black;
-	height: 80px;
-	text-decoration: none;
-	vertical-align: center;
-	text-decoration: none;
-	width: 270px;
-	height: 270px;
-	background-color: #ffffff;
-}*/
-
-/*a {
-	float: right;
-	margin-top: 100px;
-	padding: 10px;
-	width: 70px;
-	height: 70px;
-	color: lightgrey;
-	background-color: tan;
-}*/
 
 footer {
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
 	border-top: solid 6px teal;
 	padding-top: 20px;
 	text-align: center;
 	background-color: #666666;
 	/*height: 80px;*/
-	width: 100vw;
+	width: 100%;
 	clear: both;
 }
 
 footer p {
 		 text-align: center;
+		 color: #ffffff;
 }
 
-
+	a:link {color: red;
+		text-dectoration:none;
+		}
+	a:visited { color: green:
+		}
+	a:hover {background-color: blue;
+		color: white;
+		text-decoration: underline;
+		font-weight: bold;
+		}
+	a:active { background-color:orange;
+		}
 
 
 
