@@ -130,18 +130,22 @@ footer p {
 		 color: #ffffff;
 }
 
-	a:link {color: red;
-		text-dectoration:none;
-		}
-	a:visited { color: green:
-		}
-	a:hover {background-color: blue;
-		color: white;
-		text-decoration: underline;
-		font-weight: bold;
-		}
-	a:active { background-color:orange;
-		}
+a:link {color: red;
+	text-dectoration:none;
+	}
+a:visited { color: green:
+	}
+a:hover {background-color: blue;
+	color: white;
+	text-decoration: underline;
+	font-weight: bold;
+	}
+a:active { background-color:orange;
+	}
+
+.pic {
+	max-height: 250
+}
 
 
 
