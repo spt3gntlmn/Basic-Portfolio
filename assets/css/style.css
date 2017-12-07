@@ -1,12 +1,12 @@
 body {
 	/*margin-left: 10%;*/
 	/*margin-right: 10%;*/
-	width: 1000px;
+	/*width: 960px;*/
 	background-image: url(/Users/samuel/Classwork/Basic-Portfolio/assets/images/circles-light.png);
 	}
 
 header {
-	margin: auto;
+	/*margin-left: -10%;*/
 	width: 100vw;
 	float: left;
 	background-color: #ffffff
@@ -51,6 +51,17 @@ h1 {
 	background-color: #4aaaa5;
 	}
 
+section {
+	background-color: tan;
+	margin: auto;
+	width: 960px;
+}
+
+.marginhead {
+	width: 960px;
+	margin: auto;
+}
+
 article {
 	/*padding-top: 30px;*/
 	background-color: #ffffff;
@@ -79,13 +90,13 @@ h3 {
 }
 
 aside {
-	background-color: #ffffff;
+	float: right;
 	margin-top: 20px;
 	text-align: center;
 	padding: 15px;
 	width: 240px;
 	height: 170px;
-	float: right;
+	background-color: #ffffff;
 	color: #4aaaa5;
 }
 
@@ -94,6 +105,7 @@ hold {
 }
 
 p {
+	line-height: 24px;
 	padding: 0px 10px 30px 10px;
 	text-align: justify;
 }
@@ -121,13 +133,11 @@ p {
 }*/
 
 footer {
-	border-top: solid 3px green;
+	border-top: solid 6px teal;
 	padding-top: 20px;
-
-	/*margin-left: -13%;*/
 	text-align: center;
 	background-color: #666666;
-	height: 10vh;
+	/*height: 80px;*/
 	width: 100vw;
 	clear: both;
 }
@@ -137,11 +147,7 @@ footer p {
 }
 
 
-.left3 {
-	margin: auto;
-	width: 650px;
 
-}
 
 
 
