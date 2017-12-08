@@ -191,40 +191,45 @@ a:active { background-color:orange;
 }
 
 .banner1 {
- 	left: 25px;
- 	top: 360px;
+    left: 15px;
+    top: 375px;
 }
+
 
 .banner2 {
- 	left: 345px;
- 	top: 360px;
+    left: 335px;
+    top: 375px;
 }
+
 
 .banner3 {
- 	left: 25px;
- 	top: 680px;
+    left: 15px;
+    top: 695px;
 }
+
 
 .banner4 {
- 	left: 345px;
- 	top: 680px;
+    left: 335px;
+    top: 695px;
 }
+
 
 .banner5 {
- 	left: 25px;
- 	top: 1000px;
+    left: 15px;
+    top: 1015px;
 }
+
 
 .banner6 {
- 	left: 345px;
- 	top: 1000px;
+    left: 335px;
+    top: 1015px;
 }
-
 
 /*Forms*/
 
 
 form {
+    margin: 0px 20px 0px 20px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
     padding-bottom: 25px;
