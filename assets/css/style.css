@@ -50,7 +50,6 @@ h1 {
 	}
 
 section {
-	postition: relative;
 	margin: auto;
 	width: 960px;
 }
@@ -193,32 +192,32 @@ a:active { background-color:orange;
 }
 
 .banner1 {
- 	left: 24px;
+ 	left: 25px;
  	top: 360px;
 }
 
 .banner2 {
- 	left: 334px;
+ 	left: 345px;
  	top: 360px;
 }
 
 .banner3 {
- 	left: 24px;
+ 	left: 25px;
  	top: 680px;
 }
 
 .banner4 {
- 	left: 344px;
+ 	left: 345px;
  	top: 680px;
 }
 
 .banner5 {
- 	left: 24px;
+ 	left: 25px;
  	top: 1000px;
 }
 
 .banner6 {
- 	left: 344px;
+ 	left: 345px;
  	top: 1000px;
 }
 
