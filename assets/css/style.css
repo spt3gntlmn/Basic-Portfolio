@@ -50,6 +50,7 @@ h1 {
 	}
 
 section {
+	postition: relative
 	margin: auto;
 	width: 960px;
 }
